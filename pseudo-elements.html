@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p#about::first-line {
+            color: red;
+            word-spacing: 5px;
+            letter-spacing: 5px;
+        }
+
+        p::first-letter{font-size: 48px;}
+
+        ::selection{color: pink;}
+
+        p#about::selection{color: green;}
+
+        p::after{content:"\270D"}
+    </style>
+</head>
+<body>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ratione. Consequuntur, quisquam enim sit accusantium nihil reiciendis eveniet laborum distinctio ratione minima eos natus, dignissimos, eius rem. Doloremque, reprehenderit sed!</p>
+
+<p id="about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dignissimos doloremque nisi culpa cumque ab nemo corrupti omnis repellat eveniet beatae atque qui, esse suscipit dicta quod. Accusantium, ipsam velit.</p>
+
+</body>
+</html>

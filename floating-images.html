@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p{
+            border: 2px solid red;
+            padding: 5px;
+        }
+        img{float: right;}
+        .clearfix::after
+        {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos labore sequi culpa omnis accusantium, porro quis, necessitatibus, quibusdam aspernatur velit laborum corrupti nesciunt quas harum voluptate suscipit iusto assumenda enim.</p>
+    
+    <p class="clearfix"><img src="landscape.jpg" alt="" width="300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sit officia neque incidunt inventore quod tempora quas delectus amet consequatur quasi odio, voluptatibus tempore, harum ea saepe veniam beatae adipisci?</p>
+</body>
+</html>

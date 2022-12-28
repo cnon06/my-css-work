@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Document</title>
+
+    <style>
+      #baslik_sag {
+        background-color: blueviolet;
+        display: inline-block;
+        width: 100px;
+        height: 100%;
+      }
+      #baslik_sol {
+        background-color: red;
+        display: inline-block;
+        width: calc(100% - 104px);
+        height: 100%;
+      }
+
+      #baslik {
+        background-color: aqua;
+        height: 60px;
+      }
+      #govde {
+        background-color: pink;
+        height: 400px;
+      }
+
+      .govde_alti {
+        display: inline-block;
+        background-color: lightcoral;
+        height: 100%;
+        width: 33%;
+      }
+
+      #govde_alti_sol {
+        display: inline;
+        background-color: lightcoral;
+        height: 100%;
+        width: 33%;
+      }
+      #govde_alti_orta {
+        display: inline;
+        background-color: lightgreen;
+        height: 100%;
+        width: 33%;
+      }
+
+      #govde_alti_sag {
+        display: inline;
+        background-color: lightblue;
+        height: 100%;
+        width: 33%;
+      }
+      #govde_alti {
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="baslik">
+        <div id="baslik_sag"></div>
+        <div id="baslik_sol"></div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div id="govde"></div>
+        <div id="govde_alti">
+          <div class="govde_alti"></div>
+          <div class="govde_alti"></div>
+          <div class="govde_alti"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

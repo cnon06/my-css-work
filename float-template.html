@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      h1{
+        margin: 0;
+      }
+      header,
+      footer {
+        background-color: lightblue;
+        padding: 15px;
+      }
+
+      .col {
+        float: left;
+        padding: 15px 15px 15px 0;
+      }
+
+      #menu {
+        width: 25%;
+        /* height: 300px; */
+        /* background-color: lightgreen; */
+        /* float: left; */
+      }
+
+      #menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      #menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: pink;
+      }
+
+      #menu li:hover {
+        cursor: pointer;
+        /* padding: 8px;
+        margin-bottom: 8px; */
+        background-color: lightseagreen;
+      }
+
+      #content {
+        /* float: left; */
+        width: 75%;
+        /* height: 300px; */
+        background-color: pink;
+        padding: 8px;
+      }
+
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Hearder</h1>
+    </header>
+    <main class="clearfix">
+      <div id="menu" class="col">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+        </ul>
+      </div>
+      <div id="content" class="col">
+        <h1>Komple Web Geliştirme Eğitimi</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+          deserunt, omnis vitae, voluptas blanditiis quibusdam non amet
+          accusamus suscipit consectetur ducimus possimus magnam. Omnis
+          asperiores sapiente molestiae sint iusto tempore!
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+          deserunt, omnis vitae, voluptas blanditiis quibusdam non amet
+          accusamus suscipit consectetur ducimus possimus magnam. Omnis
+          asperiores sapiente molestiae sint iusto tempore!
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+          deserunt, omnis vitae, voluptas blanditiis quibusdam non amet
+          accusamus suscipit consectetur ducimus possimus magnam. Omnis
+          asperiores sapiente molestiae sint iusto tempore!
+        </p>
+      </div>
+    </main>
+    <footer>
+      <h1>Footer</h1>
+    </footer>
+  </body>
+</html>
