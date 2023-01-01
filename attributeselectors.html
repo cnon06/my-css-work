@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a[target] {
+        background-color: green;
+      }
+      [class] {
+        background-color: rebeccapurple;
+      }
+      
+      /* [class*="passive"] {
+        background-color: green;
+      } */
+
+        /* [class~="passive"] {
+        background-color: green;
+      } */
+
+      [class|="passive"] {
+        background-color: green;
+      }
+
+      /* [class="passive"] {
+        background-color: red;
+      } */
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="" target="_blank">Home Page</a>
+      <a href="" class="active">Photos</a>
+      <a href="" class="passive">Photos</a>
+      <a href="" class="deactive">Photos</a>
+      <a href="">Links</a>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p class="passive">Lorem ipsum dolor sit amet.</p>
+      <p class="passive fdd gfg" >Lorem ipsum dolor sit amet.</p>
+      <p class="fsefefpassivefefef" >Lorem ipsum dolor sit amet.</p>
+      <p class="fdd passive gfg" >Lorem ipsum dolor sit amet.</p>
+    </nav>
+  </body>
+</html>

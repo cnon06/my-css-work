@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        
+        .bg
+        {
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .bg-image1
+        {
+            height: 100vh;
+            background-image: url("bg3.jpg");
+            
+        }
+
+        .bg-image2
+        {
+            height: 50vh;
+            background-image: url("bg2.jpg");
+            clip-path: polygon(0 0, 100% 0, 100% 42%, 0% 100%);
+           
+           
+        }
+
+        .caption
+        {
+            position: absolute;
+             left: 0; 
+             top: 50%;
+             width: 100%;
+             text-align: center;
+        }
+
+        .caption .border 
+        {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 24pt;
+            text-transform: uppercase;
+            letter-spacing: 10pt;
+
+        }
+
+        .divMain 
+        {
+            height: 50vh;
+            background-image: url("bg4.jpg");
+            background-size: cover;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="bg bg-image1">
+        <div class="caption">
+            <span class="border">Lorem, ipsum.</span>
+        </div>
+    </div>
+
+    <div class="box">
+
+        <h3>
+
+        </h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet libero eligendi cupiditate incidunt, repudiandae excepturi, recusandae sunt architecto culpa est corrupti natus id maxime quae repellendus magni. Harum, provident architecto.
+            Ipsum, debitis beatae. Dolor magnam repudiandae itaque exercitationem praesentium perferendis cumque eveniet, soluta hic veritatis iste sunt officia in quos ut quibusdam non ab laborum necessitatibus. Beatae velit hic rerum?
+            Deserunt cupiditate ducimus voluptas libero enim ea, excepturi facere architecto iste nihil odio nesciunt deleniti quo, rem in ullam nemo soluta maxime repellendus at perferendis laborum fugiat alias nisi. Est.
+        </p>
+    </div>
+
+    <div class="bg divMain ">
+
+        <div class="bg bg-image2"></div>
+
+        <!-- <div class="caption">
+            <span class="border">Lorem, ipsum.</span>
+        </div> -->
+    </div>
+
+    <div class="box">
+
+        <h3>
+
+        </h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet libero eligendi cupiditate incidunt, repudiandae excepturi, recusandae sunt architecto culpa est corrupti natus id maxime quae repellendus magni. Harum, provident architecto.
+            Ipsum, debitis beatae. Dolor magnam repudiandae itaque exercitationem praesentium perferendis cumque eveniet, soluta hic veritatis iste sunt officia in quos ut quibusdam non ab laborum necessitatibus. Beatae velit hic rerum?
+            Deserunt cupiditate ducimus voluptas libero enim ea, excepturi facere architecto iste nihil odio nesciunt deleniti quo, rem in ullam nemo soluta maxime repellendus at perferendis laborum fugiat alias nisi. Est.
+        </p>
+    </div>
+</body>
+</html>

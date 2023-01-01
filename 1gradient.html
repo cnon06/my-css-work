@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    
+    body, html
+    {
+        /* height: 100%; */
+        margin: 0;
+    } 
+    #header { 
+        
+        position: relative;
+        /* background: red; */
+        /* background-image: url("landscape.jpg"); */
+        background-image: linear-gradient(to top, yellow, blue );
+        /* background-image: linear-gradient(to bottom, yellow, blue ); */
+        /* background-image: linear-gradient(to right, yellow, blue ); */
+        /* background-image: linear-gradient(to left, yellow, blue ); */
+        /* background-image: linear-gradient(to bottom right, yellow, blue ); */
+        /* background-image: linear-gradient(to bottom left, yellow, blue ); */
+        /* background-image: linear-gradient(to top left, yellow, blue ); */
+        /* background-image: linear-gradient(to top right, yellow, blue ); */
+        /* background-image: radial-gradient(yellow, blue, red ); */
+        /* background-image: radial-gradient(yellow, red ); */
+        background-image: radial-gradient(rgba(255,0,0,.3), rgba(0,255,0,.2), rgba(0,0,255,.2)), url("landscape.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-size: 300px,600px; */
+        /* opacity: 0.5; */
+        
+
+        
+        /* height: 50%; */
+        height: 50vh;
+        /* width: 80vw; */
+        width: 100%;
+    }
+
+    #header h1{
+        margin: 0;
+        color: red;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+    }
+</style>
+
+
+</head>
+<body>
+    <div  id="header">
+        <h1>Background Image</h1>
+    </div>
+</body>
+</html>

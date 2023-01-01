@@ -1,0 +1,134 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    /* text-align:center; */
+    background-color: gray;
+  }
+  h1 {
+    display: none;
+  }
+
+  @media (min-width: 400px) {
+    body {
+      background-color: red;
+    }
+  }
+
+  /* Samsung Galaxy s20 Landscape */
+  @media (min-width: 910px) and (max-width: 920px) and (min-height: 405px) and (max-height: 415px) {
+    body {
+      background-color: pink;
+    }
+
+    #Samsung-Galaxy-s20-Landscape {
+      display: inline;
+    }
+  }
+
+  /* Samsung Galaxy s20 Portrait */
+  @media (min-width: 405px) and (max-width: 420px) and (min-height: 910px) and (max-height: 920px) {
+    body {
+      background-color: lightblue;
+    }
+
+    #Samsung-Galaxy-s20-Portrait {
+      display: inline;
+    }
+  }
+
+  /* iPhone 12 pro Landscape*/
+  @media (min-width: 840px) and (max-width: 850px) and (min-height: 385px) and (max-height: 395px) {
+    body {
+      background-color: yellow;
+    }
+
+    #iPhone-12-pro-Landscape {
+      display: inline;
+    }
+  }
+
+  /* iPhone 12 pro Portrait*/
+  @media (min-width: 385px) and (max-width: 395px) and (min-height: 840px) and (max-height: 850px) {
+    body {
+      background-color: lightgreen;
+    }
+
+    #iPhone-12-pro-Portrait {
+      display: inline;
+    }
+  }
+  /* iPad Air Landscape*/
+  @media (min-width: 1175px) and (max-width: 1185px) and (min-height: 815px) and (max-height: 825px) {
+    body {
+      background-color: lightsalmon;
+    }
+
+    #iPad-Air-Landscape {
+      display: inline;
+    }
+  }
+
+  /* iPad Air Portrait*/
+  @media (min-width: 815px) and (max-width: 825px) and (min-height: 1175px) and (max-height: 1185px) {
+    body {
+      background-color: lightseagreen;
+    }
+
+    #iPad-Air-Portrait {
+      display: inline;
+    }
+  }
+
+  h1 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+
+
+  /*Samsung Galaxy Fold Landscape*/
+  @media (min-width: 648px) and (max-width: 658px) and (min-height: 275px) and (max-height: 285px) {
+    body {
+      background-color: lightskyblue;
+    }
+
+    #Samsung-Galaxy-Fold-Landscape {
+      display: inline;
+    }
+  }
+
+  /*Samsung Galaxy Fold Portrait*/
+  @media (min-width: 275px) and (max-width: 285px) and (min-height: 648px) and (max-height: 658px) {
+    body {
+      background-color: lightcoral;
+    }
+
+    #Samsung-Galaxy-Fold-Portrait {
+      display: inline;
+    }
+  }
+
+   /*Samsung Galaxy Fold Dual Screen Landscape*/
+  @media (min-width: 712px) and (max-width: 723px) and (min-height: 508px) and (max-height: 516px) {
+    body {
+      background-color: lime;
+    }
+
+    #Samsung-Galaxy-Fold-Dual-Screen-Landscape {
+      display: inline;
+    }
+  }
+
+  /*Samsung Galaxy Fold Dual Screen Portrait*/
+  @media (min-width: 508px) and (max-width: 516px) and (min-height: 712px) and (max-height: 723px) {
+    body {
+      background-color: lightsteelblue;
+    }
+
+    #Samsung-Galaxy-Fold-Dual-Screen-Portrait {
+      display: inline;
+    }
+  }
